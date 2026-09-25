@@ -31,5 +31,14 @@ For backend development, you will use 200, 201, 400, 401, 403, 404, and 500 very
 403 → Not allowed
 404 → Not found
 500 → Server error
-
+  //23/09/2026//
 Mallikarjun, we use HTTP status codes to tell the frontend what happened when it sent a request to the backend.
+when we are storeing in an array index shoudle be present
+///-----24/09/2026-----///
+// this about why we use the status?//
+`res.status(200)` → Tells the client that the request was successful.
+example:`res.status(200).json()` → Sends a response with HTTP status `200` (success) and JSON data.
+
+Example:
+res.status(200).json() → Sends a response with HTTP status 200 (success) and JSON data.
+`res.status(200).json({ message: "Note deleted successfully" })`
