@@ -42,3 +42,6 @@ example:`res.status(200).json()` → Sends a response with HTTP status `200` (su
 Example:
 res.status(200).json() → Sends a response with HTTP status 200 (success) and JSON data.
 `res.status(200).json({ message: "Note deleted successfully" })`
+//----------------26/09/2026--------//
+when u start the server its give the new ram and when u stop the server its clear the server
+///--we are created the claster in mangodb
